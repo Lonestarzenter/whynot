@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
         ctx.fillRect(0, 0, width, height);
 
-        // Metallic silver/white gradient colors
-        const silverColors = ['#E8E8E8', '#C0C0C0', '#D3D3D3', '#F5F5F5', '#FFFFFF'];
+        // Pure cool silver/white colors (no warm/gold tones)
+        const silverColors = ['#C0C0C0', '#D3D3D3', '#E5E5E5', '#F0F0F0', '#FFFFFF'];
         ctx.font = '12px monospace';
 
         for (let i = 0; i < drops.length; i++) {
