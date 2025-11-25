@@ -60,7 +60,8 @@ body {
 .logo {
     width: 100%;
     height: auto;
-    /* Clean display of transparent PNG, no filters */
+    /* Remove warm/gold tones and make it pure silver/white */
+    filter: grayscale(100%) brightness(1.1) contrast(1.1);
 }
 
 @keyframes float {
